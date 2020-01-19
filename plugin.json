@@ -1,0 +1,32 @@
+{
+  "slug": "cfbis",
+  "version": "1.0.0",
+  "license": "BSD-3-Clause",
+  "name": "cfbis",
+  "brand": "cfbis",
+  "author": "clement foulc",
+  "authorEmail": "c.foulc@gmail.com",
+  "pluginUrl": "https://github.com/cfoulc/cf",
+  "authorUrl": "https://github.com/cfoulc",
+  "manualUrl": "https://github.com/cfoulc/cf",
+  "sourceUrl": "https://github.com/cfoulc/cf",
+  "donateUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3CSNFE349G99Q",
+  "modules": [
+    {
+      "slug": "TRACK",
+      "name": "Track",
+      "description": "Track",
+      "tags": [
+        "MIXER"
+      ]
+    },
+    {
+      "slug": "MASTER",
+      "name": "Master",
+      "description": "Master outputs",
+      "tags": [
+        "MIXER"
+      ]
+    }
+  ]
+}

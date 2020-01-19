@@ -1,10 +1,7 @@
+SOURCES += $(wildcard src/*.cpp)
 
-SOURCES = $(wildcard src/*.cpp)
+DISTRIBUTABLES += $(wildcard LICENSE*) res
 
-include ../../plugin.mk
 
-dist: all
-	mkdir -p dist/cf
-	cp LICENSE* dist/cf/
-	cp plugin.* dist/cf/
-	cp -R res dist/cf/
+RACK_DIR ?= ../..
+include $(RACK_DIR)/plugin.mk
