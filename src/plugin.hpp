@@ -9,7 +9,8 @@ extern Plugin *pluginInstance;
 // module widgets
 ////////////////////
 
-extern Model *modelTRACK;
-extern Model *modelMASTER;
-
+extern Model *modelCHANNEL;
+extern Model *modelOUTS;
+extern Model *modelDUALFX;
+extern Model *modelBUFFER;
 

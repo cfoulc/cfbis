@@ -6,7 +6,9 @@ Plugin *pluginInstance;
 void init(rack::Plugin *p) {
 	pluginInstance = p;
 	
-	p->addModel(modelTRACK);
-	p->addModel(modelMASTER);
+	p->addModel(modelCHANNEL);
+	p->addModel(modelOUTS);
+	p->addModel(modelDUALFX);
+	p->addModel(modelBUFFER);
 
 }
