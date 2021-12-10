@@ -1,6 +1,6 @@
 {
   "slug": "cfbis",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "BSD-3-Clause",
   "name": "cfbis",
   "brand": "cfbis",
@@ -13,19 +13,35 @@
   "donateUrl": "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3CSNFE349G99Q",
   "modules": [
     {
-      "slug": "TRACK",
-      "name": "Track",
-      "description": "Track",
+      "slug": "CHANNEL",
+      "name": "Channel",
+      "description": "Channel",
       "tags": [
         "MIXER"
       ]
     },
     {
-      "slug": "MASTER",
-      "name": "Master",
-      "description": "Master outputs",
+      "slug": "OUTS",
+      "name": "Outs",
+      "description": "Mixer outputs",
       "tags": [
         "MIXER"
+      ]
+    },
+    {
+      "slug": "DUALFX",
+      "name": "DualFx",
+      "description": "Dual effect",
+      "tags": [
+        "DELAY, DISTORTION"
+      ]
+    },
+    {
+      "slug": "BUFFER",
+      "name": "Buffer",
+      "description": "Delay/distortion effect",
+      "tags": [
+        "DELAY, DISTORTION"
       ]
     }
   ]
