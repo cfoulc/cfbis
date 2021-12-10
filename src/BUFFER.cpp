@@ -102,8 +102,9 @@ struct BUFFERDisplay : TransparentWidget {
 		
 	}
 	
-	void draw(const DrawArgs &args) override {
+	void drawLayer(const DrawArgs &args, int layer) override {
 if (module) {
+if (layer ==1) {
 		nvgStrokeWidth(args.vg,1.2);
 		nvgStrokeColor(args.vg, nvgRGBA(0x28, 0xb0, 0xf3, 0xff ));
 		{
@@ -119,6 +120,8 @@ if (module) {
 		nvgStroke(args.vg);
 
 	}
+	}
+Widget::drawLayer(args, layer);
 };
 };
 
